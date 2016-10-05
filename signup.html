@@ -1,0 +1,56 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+</head>
+<body>
+	 <!-----start-main---->
+	 <div class="main">
+		<div class="login-form">
+			<h1>User Registration</h1>
+					<div class="head">
+						<img src="images/user.png" alt=""/>
+					</div>
+				<form action ="registered.php" method="POST">
+						<input type="text" name="uid" class="text" value="User_ID" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USER ID';}" >
+						<input type="password" name ="pass" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+						<input type="password" name="cpass" class="text" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" >
+						<input type="text" name ="uname"value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+						<input type="text" name="univ" class="text" value="University/School" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'text';}" >
+						Date of Birth :
+                                 <input type="date" name="dob"><br><br>
+						<div class="submit">
+							<input type="submit" onclick="myFunction()" value="REGISTER" >
+					</div>	
+					<p>Note:<br>
+1. User ID and Password must be 6+ digits<br>
+2. Date of Bith should be valid(0-150)<br>
+3. All entries are mandatory<br></p>
+					<p><a href="http://localhost/mooc_manager/index.html">Back to Courseware</a></p>
+				</form>
+			</div>
+			<!--//End-login-form-->
+			 <!-----start-copyright---->
+				<!-----//end-copyright---->
+		</div>
+			 <!-----//end-main---->
+		 		
+</body>
+</html>
+
+
+
+

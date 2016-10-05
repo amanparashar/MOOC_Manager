@@ -1,0 +1,46 @@
+<!--
+Author: Aman Parashar
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Login</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+</head>
+<body>
+	 <!-----start-main---->
+	 <div class="main">
+		<div class="login-form">
+			<h1>Admin Login</h1>
+					<div class="head">
+						<img src="images/user.png" alt=""/>
+					</div>
+				<form action ="admin_home.php" method="POST">
+						<input type="text" name="aname" class="text" value="USER ID" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
+						<input type="password" name ="pass"value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+						<div class="submit">
+							<input type="submit" onclick="myFunction()" value="LOGIN" >
+					</div>	
+					<p><a href="http://localhost/mooc_manager/index.html">Back to Courseware</a></p>
+				</form>
+			</div>
+			<!--//End-login-form-->
+			 <!-----start-copyright---->
+				<!-----//end-copyright---->
+		</div>
+			 <!-----//end-main---->
+		 		
+</body>
+</html>
+
+
+
+
+
