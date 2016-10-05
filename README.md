@@ -21,22 +21,22 @@ Description:
  Details:
   
 The login page looks like this where users can sign up or log in:
-   ![alt tag](http://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/user_login.png)
+   ![alt tag](https://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/user_login.png)
 
 After logging in, they can enroll in courses and their courses are listed like this:
-   ![alt tag](http://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/my_courses.png)
+   ![alt tag](https://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/my_courses.png)
 
 After clicking resume, they can access the course material:
-   ![alt tag](http://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/course_material.png)
+   ![alt tag](https://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/course_material.png)
 
 Admin can login from this page:
-   ![alt tag](http://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/admin_home.png)
+   ![alt tag](https://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/admin_home.png)
 
 He can add teachers and course materials:
-   ![alt tag](http://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/admin_options.png)
+   ![alt tag](https://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/admin_options.png)
 
 Also he can add teachers through: 
-   ![alt tag](http://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/teacher_register.png)
+   ![alt tag](https://github.com/amanparashar/MOOC_Manager/blob/master/screenshots/teacher_register.png)
 
 
  Requirements:
